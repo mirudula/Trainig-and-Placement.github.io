@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="student.master.cs" Inherits="student" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link href="StyleSheet.css" rel="Stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div bgcolor="#f88009">
+        <table style="width: 1340px; height: 176px;">
+            <tr>
+                <td style="font-size: x-large" valign="top">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/img/psg logo.jpg" Height="159px" 
+                        Width="139px" />
+                    <br />
+                </td>
+                <td valign="top" style="border-color: #2C7BA4;">
+                    <asp:Image ID="Image2" runat="server" Height="172px" 
+                        ImageUrl="~/img/header.jpg" Width="710px" />
+                </td>
+            </tr>
+        </table>
+        <table style="width: 1340px; height: 16px"; style="border-color: #02283B";>
+            <tr>
+                <td>
+                
+                </td>
+            </tr>
+        </table>
+        <table style="height: 423px; width: 164px">
+            <tr>
+                <td valign="top">
+                    <fieldset style="height: 376px; width: 205px;">
+                    <legend>
+                    Menu
+                    </legend>
+                    <table style="height: 345px; width: 197px">
+                      <tr>
+                            <td style="border-color: #106995">
+                                <asp:HyperLink ID="HyperLink7" runat="server" ForeColor="blue" 
+                                    NavigateUrl="~/placementcalendar.aspx">Home Page</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-color: #106995;">
+                                <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="blue" 
+                                    NavigateUrl="~/Viewprofile.aspx">Edit Profile</asp:HyperLink>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td style="border-color: #106995;">
+                                <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="blue" 
+                                    NavigateUrl="~/downloadresumeformat.aspx">Resume</asp:HyperLink>
+                            </td>
+                        </tr>
+                       <tr>
+                            <td style="border-color: #106995">
+                                <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="blue"
+                                     NavigateUrl="~/downloadquespaper.aspx">Download Question Paper</asp:HyperLink>
+                            </td>
+                        </tr>
+                            <tr>
+                            <td style="border-color: #106995;">
+                                <asp:HyperLink ID="HyperLink4" runat="server" ForeColor="blue"
+                                     NavigateUrl="~/attendtest.aspx">Online Test</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-color: #106995;">
+                                <asp:HyperLink ID="HyperLink8" runat="server" ForeColor="blue"
+                                     NavigateUrl="~/StuViewmarks.aspx">View Test Performance</asp:HyperLink>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td #style="border-color: #106995;">
+                                <asp:HyperLink ID="HyperLink11" runat="server" ForeColor="blue"
+                                     NavigateUrl="~/Viewplacedlist.aspx">Placed Students List</asp:HyperLink>
+                            </td>
+                        </tr>                        
+                         <tr>
+                            <td style="border-color: #106995">
+                                <asp:HyperLink ID="HyperLink5" runat="server" ForeColor="blue"
+                                    NavigateUrl="~/coordinatormsgs.aspx">View Co-ordinator Messages</asp:HyperLink>
+                            </td>
+                        </tr>                        
+                        <tr>
+                            <td style="border-color: #106995;">
+                                <asp:HyperLink ID="HyperLink9" runat="server" ForeColor="blue"
+                                     NavigateUrl="~/Viewplacementtips.aspx">View Placement Tips</asp:HyperLink>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td style="border-color: #106995;">
+                                <asp:HyperLink ID="HyperLink10" runat="server" ForeColor="blue"
+                                     NavigateUrl="~/staffcontacts.aspx">Contact Us</asp:HyperLink>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td style="border-color: #106995;">
+                                <asp:HyperLink ID="HyperLink6" runat="server" ForeColor="blue" 
+                                    NavigateUrl="~/index.aspx">Log out</asp:HyperLink>
+                            </td>
+                        </tr>
+                    </table>
+                    </fieldset>
+                </td>
+                <td valign="top">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>        
+                </td>
+            </tr>
+        </table>
+        
+    
+    </form>
+</body>
+</html>
