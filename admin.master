@@ -98,12 +98,6 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <asp:HyperLink ID="HyperLink9" runat="server" ForeColor="blue" 
-                                    NavigateUrl="~/staffviewplacedstudents.aspx">View Placed Students</asp:HyperLink>
-                            </td>
-                        </tr>
-                         <tr>
                             <td style="border-color: #106995">
                                 <asp:HyperLink ID="HyperLink6" runat="server" ForeColor="blue" 
                                     NavigateUrl="~/index.aspx">Log out</asp:HyperLink>
